@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+        }
+
+
+html{
+    overflow-x :hidden ;
+    overflow-y :hidden ;
+    background-color: rgb(240, 240, 240);
+}
+img{
+    margin-top: 50px;
+    transition: all 2s ease-in-out; }
+img:hover { transform: scale(1.27); }
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+
+.sociaux {
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sociaux a {
+      margin: 10px;
+      padding: 10px;
+      color: rgb(92, 91, 91);
+      transition: 0.3s ease;
+}
+.sociaux a:hover, .sociaux a:focus {
+        color: #141414;
+}
+
+a{transition: all 2s ease-in-out; }
+a:hover { transform: scale(2); }
